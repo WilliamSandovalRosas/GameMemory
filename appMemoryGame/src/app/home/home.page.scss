@@ -1,0 +1,19 @@
+.content{
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__rowGame{
+    height: 100px;
+    background-color: rgb(183, 183, 202);
+    &__rowGame__gameCard{
+      height: 100%;
+      width: 100px;
+      background-color: rgb(149, 161, 161);
+    }
+
+  }
+}
